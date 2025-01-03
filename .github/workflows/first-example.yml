@@ -3,8 +3,8 @@ name: My First Workflow
 
 #trigger
 on: push
-  jobs:
-    first_job:
+jobs:
+   first_job:
         runs-on: ubuntu-latest
         steps:
         - name: Welcome message
@@ -15,4 +15,3 @@ on: push
         
         - name: Read file
           run: cat README.md
-          
